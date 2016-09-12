@@ -329,7 +329,7 @@ footer ul li a, footer ul li a:hover {
     }
 
     .footer-set-mid {
-        width: 500px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -337,7 +337,7 @@ footer ul li a, footer ul li a:hover {
         margin-bottom: 1px;
     }
 
-    footer .netpl {
+    .netpl {
         display: block;
         width: 300px;
         margin: 0 auto;
@@ -427,11 +427,19 @@ footer ul li a, footer ul li a:hover {
         font-size: 0.4em;
         padding: 0;
     }
-    footer{
+
+    footer {
         font-size: 0.66em;
     }
-    footer ul{
-        margin:0 auto;
-        padding:0;
+
+    footer ul {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .netpl {
+        width: 200px;
+        margin-top: 3px;
+        font-size: 0.66em;
     }
 }
