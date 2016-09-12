@@ -416,7 +416,7 @@ footer ul li a, footer ul li a:hover {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     .main-pic, .main-pic2 {
         background-color: transparent;
     }
