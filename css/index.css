@@ -1,0 +1,413 @@
+/* 全局样式 */
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* 导航 */
+.nav-mystyle {
+    background: #9d261d;
+}
+
+.nav-mystyle .navbar-nav > li > a, .navbar-brand {
+    color: #fff;
+}
+
+.nav-mystyle .navbar-collapse a:hover {
+    background-color: #1e347b;
+}
+
+.nav-mystyle .navbar-collapse a:active {
+    background-color: #4448ff;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover, .navbar-nav > li > a:focus {
+    background-color: #1e347b;
+}
+.icon-bar {
+    background-color: #ffffff;
+}
+
+.login-btn {
+    color: #fff;
+    line-height: 35px;
+    display: none;
+}
+
+.icon-search{
+    margin-left:3px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-field,.login-btn:hover {
+    color: #111;
+    text-decoration: none;
+}
+
+.set-oneline{
+    display:inline-block;
+}
+/* 页面主体 */
+.main-setheight {
+    height: 450px;
+    background-image: url(../img/0630100038.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1400px;
+    overflow: hidden;
+}
+
+.main-pic, .main-pic2 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.main-pic {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    opacity: 0;
+    padding: 10px;
+    width: 500px;
+    background-color: #9d3a37;
+}
+
+.main-pic2 {
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    opacity: 0;
+    width: 300px;
+    padding: 5px;
+    background-color: #9d3a37;
+}
+
+.main-pic p {
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    font-style: italic;
+}
+
+.main-pic2 p {
+    text-align: center;
+    color: #fff;
+    font-size: 2.2em;
+    font-style: italic;
+}
+
+.red-word {
+    position: absolute;
+    width: 250px;
+    top: 100px;
+    left: 200px;
+    font-style: italic;
+    color: #fff;
+    opacity: 0;
+    background-color: #a94442;
+}
+
+.red-word2 {
+    position: absolute;
+    width: 250px;
+    top: 200px;
+    left: 200px;
+    font-style: italic;
+    color: #fff;
+    opacity: 0;
+    background-color: #a94442;
+}
+
+.red-word3 {
+    position: absolute;
+    width: 250px;
+    top: 300px;
+    right: 300px;
+    font-style: italic;
+    color: #fff;
+    opacity: 0;
+    background-color: #a94442;
+    z-index: 0;
+}
+
+.red-word p {
+    padding-top: 10px;
+    margin-left: 25px;
+}
+
+.register-form {
+    display: block;
+    width: 300px;
+    height: 320px;
+    margin-top: 80px;
+    margin-left: 65%;
+    padding: 20px;
+    border: 1px #c0c0c0 solid;
+    background-color: #FFF;
+    vertical-align: -150px;
+    -webkit-box-shadow: 3px 2px #686868;
+    -moz-box-shadow: 3px 2px #686868;
+    box-shadow: 3px 2px #686868;
+}
+
+main form p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.link-pwd {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.er-wei-ma {
+    display: none;
+}
+
+/* 横隔线 */
+#thin-line {
+    width: 100%;
+    border-top: 1px #c0c0c0 solid;
+    border-bottom: 1px transparent;
+    border-right: 1px transparent;
+    border-left: 1px transparent;
+}
+
+/* 栏目 */
+aside {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.work-msg {
+    display: inline-block;
+    width: 31%;
+    padding: 10px 20px;
+    margin: 10px 1%;
+    border: 1px #c0c0c0 solid;
+}
+
+.msg-box {
+    display: inline-block;
+    width: 60%;
+}
+
+.msg-imgbox {
+    display: inline-block;
+}
+
+.msg-imgbox img {
+    display: inline-block;
+    width: 100px;
+    vertical-align: 6px;
+}
+
+.msg-title {
+    font-size: 2em;
+    color: #9d9319;
+}
+
+/* 页面底部 */
+footer {
+    height: 100%;
+    padding-top: 10px;
+    background-color: #9d261d;
+}
+
+.footer-set-mid {
+    display: inline-block;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-left: 10px;
+    color: #fff;
+}
+
+footer ul li a, footer ul li a:hover {
+    color: #fff;
+}
+
+.netpl {
+    display: inline-block;
+    margin-left: 500px;
+    color: #fff;
+    vertical-align: -10px;
+}
+
+/* 宽度大于990 */
+/*@media screen and (min-width: 990px){
+    .main-pic, .main-pic2 {
+        padding
+        height: 320px;
+    }
+}*/
+/*  宽度小于996px */
+@media screen and (max-width: 996px) {
+    .login-btn {
+        display: inline-block;
+        float: left;
+    }
+
+    .main-setheight {
+        height: 420px;
+    }
+
+    .main-pic, .main-pic2 {
+        position: static;
+        width: 600px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 0;
+        background-color: #9d261d;
+    }
+
+    .main-pic {
+        margin-top: 80px;
+    }
+
+    .main-pic {
+        padding-top: 20px;
+    }
+
+    .main-pic2 {
+        line-height: 100px;
+    }
+
+    .red-word, .red-word2, .red-word3 {
+        display: none;
+    }
+
+    .register-form {
+        display: none;
+    }
+
+    .work-msg {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 5px 20px;
+    }
+
+    .work-msg p {
+        display: inline-block;
+    }
+
+    .msg-box {
+        width: 60%;
+        margin: 0;
+        padding: 0;
+        vertical-align: 25px;
+    }
+
+    .msg-title {
+        display: inline-block;
+        margin-right: 8%;
+        margin-top: 0;
+        padding: 0;
+        vertical-align: top;
+    }
+
+    .msg-imgbox {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-set-mid {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    footer ul {
+        margin-bottom: 1px;
+    }
+
+    footer .netpl {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-setheight {
+        height: 680px;
+        background-size: 1400px;
+    }
+
+    .main-pic, .main-pic2 {
+        font-size: 0.5em;
+        width: 70%;
+        border-radius: 10px;
+        vertical-align: middle;
+    }
+
+    .main-pic {
+        width: 48%;
+        line-height: 60px;
+    }
+
+    .main-pic2 {
+        width: 55%;
+        height: 30px;
+        font-size: 0.5em;
+        line-height: 2em;
+    }
+
+    .work-msg {
+        height: 60%;
+    }
+
+    .msg-title {
+        display: block;
+        margin-right: 5px;
+        font-size: 1.2em;
+    }
+
+    .msg-main {
+        vertical-align: middle;
+        margin: 0;
+        padding: 0;
+    }
+
+    .er-wei-ma {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color: #fff;
+        text-align: center;
+        line-height: 300px;
+        font-size: 3em;
+    }
+
+
+
+    .dropdown-menu > li > a {
+        color: #fff;
+    }
+
+    .dropdown-menu > li > a:hover {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .register-form {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
