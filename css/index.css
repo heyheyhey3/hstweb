@@ -26,9 +26,11 @@ main {
 .nav-mystyle .navbar-collapse a:active {
     background-color: #4448ff;
 }
+
 .nav .open > a, .nav .open > a:focus, .nav .open > a:hover, .navbar-nav > li > a:focus {
     background-color: #1e347b;
 }
+
 .icon-bar {
     background-color: #ffffff;
 }
@@ -39,20 +41,21 @@ main {
     display: none;
 }
 
-.icon-search{
-    margin-left:3px;
+.icon-search {
+    margin-left: 3px;
     color: #fff;
     text-decoration: none;
 }
 
-.search-field,.login-btn:hover {
+.search-field, .login-btn:hover {
     color: #111;
     text-decoration: none;
 }
 
-.set-oneline{
-    display:inline-block;
+.set-oneline {
+    display: inline-block;
 }
+
 /* 页面主体 */
 .main-setheight {
     height: 450px;
@@ -356,9 +359,9 @@ footer ul li a, footer ul li a:hover {
 
     .main-pic {
         width: 50%;
-        height:30px;
-        font-size:0.6em;
-        padding:0;
+        height: 30px;
+        font-size: 0.6em;
+        padding: 0;
         vertical-align: top;
     }
 
@@ -366,7 +369,7 @@ footer ul li a, footer ul li a:hover {
         width: 55%;
         height: 30px;
         font-size: 0.5em;
-        line-height: 2em;
+        line-height: 4em;
     }
 
     .work-msg {
@@ -397,8 +400,6 @@ footer ul li a, footer ul li a:hover {
         font-size: 3em;
     }
 
-
-
     .dropdown-menu > li > a {
         color: #fff;
     }
@@ -413,4 +414,18 @@ footer ul li a, footer ul li a:hover {
         margin: 0 auto;
         margin-top: 50px;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .main-pic, .main-pic2 {
+        background-color: transparent;
+    }
+
+    .main-pic {
+        width: 100%;
+        height: 30px;
+        font-size: 0.4em;
+        padding: 0;
+    }
+
 }
