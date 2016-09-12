@@ -427,5 +427,11 @@ footer ul li a, footer ul li a:hover {
         font-size: 0.4em;
         padding: 0;
     }
-
+    footer{
+        font-size: 0.66em;
+    }
+    footer ul{
+        margin:0 auto;
+        padding:0;
+    }
 }
