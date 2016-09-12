@@ -355,8 +355,11 @@ footer ul li a, footer ul li a:hover {
     }
 
     .main-pic {
-        width: 48%;
-        line-height: 60px;
+        width: 47%;
+        height:26px;
+        font-size:0.4em;
+        padding:0;
+        vertical-align: top;
     }
 
     .main-pic2 {
