@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+<nav>
+    <div class="navbar navbar-primary nav-mystyle navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">IFAX</a>
+            <div class="btn btn-link login-btn">登录</div>
+
+        </div>
+        <div class="collapse navbar-collapse navbar-left " id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">理财产品</a></li>
+                <li><a href="#">股票</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        期货 <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">白银</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">石油</a></li>
+                        <li class="disabled"><a href="#">铁</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" class="search-button"><i class="icon-search"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><form class="navbar-form set-oneline">
+                            <div class="form-group">
+                                <input type="text" class="form-control " placeholder="请输入关键字">
+                            </div>
+                            <button type="submit" class="btn btn-default" >搜索</button>
+                        </form></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div>
+    <div class="main-setheight">
+        <div class="main-pic"><p>IFAX助你财富取之有道</p></div>
+        <div class="main-pic2"><p>全产品的资产配置助您的财富稳健增值</p></div>
+        <div class="red-word"><p>理财、股票、投资、来IFAX</p>
+            <p>一键就完成</p></div>
+        <div class="red-word2"><p>您的理财顾问</p></div>
+        <div class="red-word3"><p>各理财师随时待命</p></div>
+        <div class="er-wei-ma"><p>二维码</p></div>
+        <div class="register-form">
+            <form>
+                <p class="text-center">登 录</p>
+                账户：<input type="text" class="form-control" placeholder="请输入你的账户"><br>
+                密码：<input type="password" class="form-control" placeholder="请输入你的密码"><br>
+                <button type="button" class="btn btn-primary btn-block">登录</button>
+                <button type="button" class="btn btn-default btn-block">注册</button>
+                <p class="link-pwd pull-right"><a href="">忘记密码</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="thin-line"></div>
+<aside>
+    <div class="work-msg">
+        <div class="msg-box"><p class="msg-title">专业创造财富</p>
+            <p class="msg-main">证监会颁布的专业资质<br>
+                业内闻名的产品研究团队</p></div>
+        <div class="msg-imgbox"><img src="./img/qianbao.png"></div>
+    </div>
+    <div class="work-msg">
+        <div class="msg-box"><p class="msg-title">专注客户利益</p>
+            <p class="msg-main">第三方投资顾问中立客观<br>业内闻名的产品研究团队</p></div>
+        <div class="msg-imgbox"><img src="./img/qianbao.png"></div>
+    </div>
+    <div class="work-msg">
+        <div class="msg-box"><p class="msg-title">专属尊贵服务</p>
+            <p class="msg-main">量身定制资产配置方案<br>线下线上多种交易方式</p></div>
+        <div class="msg-imgbox"><img src="./img/qianbao.png"></div>
+    </div>
+</aside>
+<footer>
+    <div class="footer-set-mid">
+        <ul>
+            <li>｜<a href="">关于我们</a>｜</li>
+            <li><a href="">用户协议</a>｜</li>
+            <li><a href="">招聘信息</a>｜</li>
+            <li><a href="">联系我们</a>｜</li>
+            <li><a href="">English</a>｜</li>
+        </ul>
+    </div>
+    <div class="netpl">违法和不良信息举报电话: 028-62836666<br>
+        中国互联网举报中心：12377
+    </div>
+</footer>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".main-pic").delay(50).animate({opacity: 0.85}, 700);
+        $(".main-pic2").delay(20).animate({opacity: 0.85}, 700);
+        $(".red-word").delay(100).animate({left: "+=100px", opacity: 0.5}, 700);
+        $(".red-word2").delay(200).animate({left: "+=50px", opacity: 0.5}, 700);
+        $(".red-word3").delay(300).animate({right: "+=300px", opacity: 0.5}, 700);
+    });
+</script>
+</body>
+</html>
